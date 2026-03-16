@@ -33,17 +33,6 @@ python train_lequa.py \
   --dataset SMARTFALL \
   --cuda_device cuda:0
  ```
- For transformers and APR Bag generator:
- ```bash
-python train_lequa.py \
-  --train_name smartfall_transformer \
-  --network gmnet \
-  --network_parameters experiments/parameters/common_parameters_SMARTFALL.json \
-  --feature_extraction transformers \
-  --bag_generator APRBagGenerator \
-  --dataset SMARTFALL \
-  --cuda_device cuda:0
- ```
 
 **Arguments:**
 - `--train_name` - Name for the training run
@@ -54,6 +43,9 @@ python train_lequa.py \
 - `--standarize` - Apply feature standardization
 - `--dataset` - Dataset to use (EMG, SMARTFALL etc.)
 - `--cuda_device` - Specify CUDA device for GPU training
+
+**Arguments:**
+Dataset will be placed in ./dataset/smartfallMM
 
 ## Contact
 Questions or issues?  
