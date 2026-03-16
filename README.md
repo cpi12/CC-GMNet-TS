@@ -44,7 +44,7 @@ python train_lequa.py \
 - `--dataset` - Dataset to use (EMG, SMARTFALL etc.)
 - `--cuda_device` - Specify CUDA device for GPU training
 
-**Arguments:**
+**Dataset:**
 Dataset will be placed in ./dataset/smartfallMM
 
 ## Contact
